@@ -7,6 +7,7 @@ body{
     background-image: url(./image/Coffee\ Types\ Banner\ Desktop.webp);
     background-repeat: no-repeat;
     background-image: cover;
+    background-position: center;
     background-color: rgba(0,0,0,0.5);
 }
 
