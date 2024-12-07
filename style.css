@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: brown;
+}
+
+.navbar{
+   padding: 10px; 
+
+}
+
+.navbar .logo{
+
+}
+
+.navbar ul{
+    display: flex;
+    float: right;
+    gap: 15px;
+
+}
+
+.navbar li{
+    list-style-type: none;
+    cursor: pointer;
+    
+}
+
+.navbar li .active{
+    color: #fff599;
+}
+
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-shadow: ;
+    
+
+}
+
+.navbar a:hover{
+    color:#fff599;
+    
+}
+
+.navbar button{
+    font-size: 20px;
+    padding: 5px 10px;
+    width: 150px;
+
+
+    
+}
