@@ -4,17 +4,18 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
-    background-color: brown;
+    background-image: url(./image/Coffee\ Types\ Banner\ Desktop.webp);
+    background-repeat: no-repeat;
+    background-image: cover;
+    background-color: rgba(0,0,0,0.5);
 }
+
 
 .navbar{
-   padding: 10px; 
-
+   padding: 20px;
 }
 
-.navbar .logo{
 
-}
 
 .navbar ul{
     display: flex;
@@ -37,10 +38,7 @@ body{
 .navbar a{
     text-decoration: none;
     color: white;
-    font-size: 20px;
-    text-shadow: ;
-    
-
+    font-size: 17px;
 }
 
 .navbar a:hover{
@@ -51,8 +49,75 @@ body{
 .navbar button{
     font-size: 20px;
     padding: 5px 10px;
-    width: 150px;
+    width: 130px; 
+    background-color: brown; 
+    border: none; 
+    border-radius: 15px;
+    color: white;
+}
+.navbar button:hover{
+    transform: scale(1.);
+    box-shadow: 4px 4px 4px  brown;
+    background-color: yellow;
+    color: black;
 
+}
 
+.content h1{
+    
+    background-image: linear-gradient(yellow,yellow,brown, white ,black);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin: 30px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin-top: 100px;
+    margin-bottom: 10px;
     
 }
+
+.content p{
+    color: cornsilk;
+    margin: 30px;
+    margin-top: 10px;
+    font-size: 17px;
+    margin-bottom: 0px;
+    
+}
+
+.content button{
+    margin: 30px;
+    font-size: 20px;
+    width: 150px;
+    margin-bottom: 0px;
+    padding: 5px 10px;
+    color: white;
+    background-image: linear-gradient(black, brown,black);
+    border:4px solid white;
+}
+.content button:hover{
+    transition: 20ms;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px brown;
+}
+
+/*default styles for desktop screens */
+
+.body{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*styles for tablet screens */
+
+@media only screen and (max-width:768px){
+    .body{
+        width: 90%;
+    }
+    .navbar a{
+        font-size: 19px;
+
+    }
+}
+
