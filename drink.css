@@ -1,99 +1,134 @@
+
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
 }
 
-.navbar{
-    background-color:black;
-    padding-right: 15px;
-    padding: 20px;
-    
-
-
-}
 .content{
+    min-height: 100vh;
+    background: url(./3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.logo a{
-    font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 500;
-    color: white;
-    margin: 20px;
-    text-decoration: none;
-    color: white;
-}
-.logo a span{
-    color: blue;
+    width: 99%;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #fff;
     
 }
-
-.content li{
-    list-style-type: none;
-    display: inline-block;
-    
-
-
-}
-
-.content li a{
-    color: azure;
-    font-size: 20px;
-    text-decoration: none;
-    padding-inline: 10px;
-    
-
-}
-.content button {
-    background-color: blue;
+.logo{
+    width: 100px;
+    filter: drop-shadow(0 0 10px blue);
     margin-left: 10px;
     border: none;
-    border-radius: 10px;
-    padding: 10px;
-    width: 100px;
-    
+    border-radius: 50px;
 }
-.content button a{
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    font-size:20px ;
-
+nav ul{
+    display: flex;
+    align-items: center;
 }
-hr{
-    border: 1px solid black;
-    width: 100%;
-    
-
-
+nav ul li{
+    margin: 0 15px;
+    list-style-type: none;
 }
- .about{
-    background-image: url(./3.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
- }
-  h1{
-    font-size: 50px;
-    margin-top: 0;
-    color: white;
-    
-    
 
- }
-  h1 span{
-    color: black;
-    font-size:50px ;
-    
- }
-
-  p{
-    font-size: 20px;
+nav ul li a{
+    font-size: 18px;
     color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
     
- }
+    
+}
+nav ul li a:hover{
+    color: red;
+    text-shadow: 0  5px 10px red;
+}
+
+nav button{
+    padding: 12px 35px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: blue;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin-right: 30px;
+    color: #fff;
+    transition:.3s ;
+
+
+}
+nav button:hover{
+    background-color: red;
+    box-shadow: 5px 5px 5px red;
+    transition: 10ms;
+    transform: scale(1.1);
+}
+.lets{
+    position: absolute;
+    top: 30%;
+    left: 90px;
+
+} 
+
+ h2{
+    color: #fff;
+    font-size: 56px;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 70px;
+}
+h2 span{
+    color: blue;
+}
+p{
+    color:white;
+    font-size: 17px;
+    margin-top: 10px;
+
+}
+P span{
+    color: blue;
+}
+.lets button{
+    margin-top: 50px;
+    padding: 12px 45px;
+    border: none;
+    background-color: blue;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 3rem;
+
+}
+.lets button:hover{
+    scale: .9;
+
+}
+.lets button.know_More{
+    margin-left: 25px;
+    background: transparent;
+    border: 3px solid BLUE;
+    color: black;
+
+}
+.lets button.know_More:hover{
+    box-shadow: 0 5px 20PX BLUE;
+}
+@media screen(max-with) {
+    h2{
+        font size{
+            
+        }
+    }
+    
+}
+
